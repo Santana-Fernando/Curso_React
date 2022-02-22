@@ -1,0 +1,43 @@
+.container {
+  min-height: 100vh;
+  background: #eee;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.post {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.search {
+  margin: 0 auto;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  min-height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
