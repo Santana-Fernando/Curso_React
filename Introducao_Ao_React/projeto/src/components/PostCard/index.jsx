@@ -1,10 +1,10 @@
-export const PostCard = (porps) => {
-    const { post } = porps
+export const PostCard = (props) => {
+    const {id, title} = props.post
     return (
         <div className='post'>
             <div className='post-content'>
-                <h1>{post.title}</h1>
-                <p>{post.body}</p>
+                <h1>{id}</h1>
+                <p>{title}</p>
             </div>
         </div>
     )

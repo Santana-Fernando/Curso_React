@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <section className='container'>
       <div className='header'>
-        <input className='search' onChange={handleChange}/>
+        <input className='search' placeholder='pesquise aqui...' onChange={handleChange}/>
       </div>
         <div className="posts">
 
@@ -68,6 +68,5 @@ export default function Home() {
 
     </section>
   );
-  
-  
+
 }
